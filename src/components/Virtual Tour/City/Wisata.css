@@ -1,0 +1,92 @@
+.container-wisata {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-wisata h2 {
+    padding: 20px 0;
+}
+
+.iframe-container {
+    position: relative;
+    width: auto;
+    padding-bottom: 30%;
+    height: 100%;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 160%;
+}
+
+.content {
+    margin-top: 210px;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.content h2 {
+    font-weight: 800;
+    margin-top: 0 0;
+}
+
+.LocNavigation {
+    text-decoration: none;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.LocNavigation .card-btn {
+    display: block;
+    width: 30%;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #3363ff;
+    background-color: #d8e0fd;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+.maps-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 769px) {
+    .iframe-container iframe {
+        height: 200%;
+    }
+    .LocNavigation .card-btn {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .container-wisata {
+        width: 90%;
+    }
+    .iframe-container iframe {
+        height: 250%;
+    }
+    .content {
+        margin-top: 180px;
+    }
+    .LocNavigation .card-btn {
+        width: 70%;
+    }
+}

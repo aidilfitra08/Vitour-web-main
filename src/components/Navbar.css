@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed!important;
+    display: flex;
+    flex-wrap: nowrap!important;
+    align-items: flex-start!important;
+    height: 75px;
+    background-color: #7a67ff;
+    /* background-color: transparent; */
+    padding: 20px;
+    width: 100%;
+    z-index: 100;
+    transition: 0.3s ease-in;
+    margin-top: 0px;
+    /* margin-top: 10px; */
+}
+
+.navbar.active {
+    background-color: #1e02bd;
+    margin-top: 0;
+}
+
+.navbar.solid {
+    background-color: #490D40;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+}
+
+.navbar.solid .Home,
+.navbar.solid .Store,
+.navbar.solid .vTour,
+.navbar.solid .about {
+    color: #0400d8;
+}
+
+.navbar .img-wrapper {
+    width: 200px;
+    height: auto;
+    margin: auto 30px;
+    justify-content: center;
+}
+
+.navbar .img-wrapper img {
+    width: 50px;
+    height: auto;
+    justify-content: center;
+}
+
+.nav-links {
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 100%;
+    margin-right: 40px;
+}
+
+.auth {
+    display: flex;
+    width: fit-content;
+    margin-left: 100px;
+}
+
+li .Home,
+li .Store,
+li .vTour,
+li .about,
+li .login,
+li .register {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    transition: .3s;
+}
+
+li .login {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px 20px!important;
+    transition: .2s ease-in;
+}
+
+li .login:hover {
+    color: #d4d8ff;
+    background-color: #5b606fdf;
+}
+
+li .Home:hover,
+li .Store:hover,
+li .vTour:hover,
+li .about:hover {
+    color: #d4d8ff;
+    background-color: #5b606fdf;
+    border-radius: 10px;
+}
+
+.navbar.active li .Home:hover,
+.navbar.active li .Store:hover,
+.navbar.active li .vTour:hover,
+.navbar.active li .about:hover,
+.navbar.active li .login:hover {
+    color: #1e02bd;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+#profile-menu {
+    margin-right: 25px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+.prof-drop {
+    /* background-color: #9888ff; */
+    display: none;
+}
+
+.hide-nav {
+    top: -500px;
+}
+
+@media screen and (max-width: 1119px) {
+    .logo {
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 10px;
+    }
+    .nav-links {
+        display: none;
+    }
+    .nav-links-mobile {
+        position: absolute;
+        display: grid;
+        list-style: none;
+        background-color: #0133D4;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+        z-index: 100;
+        padding-left: 0;
+        padding-top: 1rem;
+    }
+    .auth {
+        margin-left: 0;
+        display: contents;
+        margin-top: 20px;
+    }
+    li {
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    li .login {
+        border: none;
+    }
+    li .Home,
+    li .Store,
+    li .vTour,
+    li .about,
+    li .login,
+    li .register {
+        color: #ffffff;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+    .Home :hover,
+    .Store :hover,
+    .vTour :hover,
+    .about :hover {
+        background-color: #0133D4;
+        color: white;
+    }
+    .mobile-menu-icon {
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: #ffffff;
+        background: none;
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px;
+    }
+
+    .prof-drop {
+        /* background-color: #9888ff; */
+        display: block;
+    }
+
+    #profile-menu {
+        display: none;
+        
+    }
+}
+
+@media screen and (max-width: 780px) {}

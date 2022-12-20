@@ -1,0 +1,44 @@
+body .my-orders {
+    padding-top: 15vh!important;
+    /* background-image: url("bg-profile.png"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+  }
+
+.page-title {
+    display: flex;
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.sub-title {
+    font-weight: bold;
+}
+
+.orders{
+    padding: 10px;
+}
+
+.order-card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 80%;
+    margin-bottom: 1vh;
+    height: fit-content;
+
+}
+/* .button-detail {
+
+} */
+@media screen and (max-width: 1399px) {
+    .left-col {
+        width: 100%;
+    }
+    
+    .right-col {
+        width: 100%;
+    }
+}

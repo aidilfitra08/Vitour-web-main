@@ -1,0 +1,305 @@
+.h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+  
+.h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.02em;
+}
+  
+.h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+}
+  
+.bodybold{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+}
+  
+.subtitle1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+}
+  
+.subtitle2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+  
+.bodytext{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+}
+  
+.smalltext{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+}
+  
+.pretext{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+}
+
+#gambar{
+    background: url('https://telegra.ph/file/9105077b92c82030c7b20.jpg');
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    height: 1024px;
+}
+
+#gambar .section-kiri{
+    padding-top: 458px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#form-section{
+    padding-left: 90px;
+    padding-top: 209px;
+}
+
+#form-section .form-control{
+    width: 540px;
+    height: 50px;
+    background: #F8F8F8;
+    border-radius: 12px;
+    margin-top: 10px;
+    border-style: none;
+}
+
+#form-section .form-username{
+    color: #022F46;
+}
+
+#form-section .form-password{
+    color: #022F46;
+    margin-top: 40px;
+}
+
+#form-section .button-loginregister{
+    padding-top: 40px;
+}
+
+#form-section .btn-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 64px;
+    gap: 6px;
+    width: 300px;
+    height: 50px;
+    background: #0133D4;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+#form-section .login-button{
+    text-decoration: none;
+}
+
+#form-section .btn-register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 64px;
+    gap: 6px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #0133D4;
+    border-radius: 8px;
+    color: #0133D4;
+}
+
+#form-section .button-checkbox{
+    padding-top: 40px;
+}
+#form-section .register-button{
+    text-decoration: none;
+}
+
+#form-section .form-check-input{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;   
+}
+
+#form-section .form-check-label{
+    height: 30px;
+    color: #022F46;
+    padding-top: 10px;
+    padding-left: 16px;
+}
+
+#form-section .btn-forgotpassword{
+    padding-top: 10px;
+    color: #373737;
+}
+
+#form-section .line{
+    width: 235px;
+    height: 0px;
+    border: 1px solid #022F46;
+}
+
+
+#form-section .or{
+    padding-top: 40px;
+}
+
+#form-section .bodyor{
+    padding-top: 6px;
+    color: #022F46;
+    text-align: center;
+}
+
+#form-section .via{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #373737;
+    padding-left: 209px;
+}
+
+#form-section .alternate-login{
+    margin-left: 140px;
+}
+
+#form-section .component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 60px;
+    height: 60px;
+    background: #F2F2F2;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+
+.navbar-login-register {
+    height: 75px;
+    background-color: #7a67ff;
+    /* background-color: transparent; */
+    padding: 8px;
+    padding-top: 15px;
+    width: 100%;
+    margin-top: 0px;
+    position:absolute;
+    /* margin-top: 10px; */
+}
+
+.img-wrapper {
+    width: 200px;
+    height: auto;
+    margin: auto 30px;
+    justify-content: center;
+}
+
+.img-wrapper img {
+    width: 50px;
+    height: auto;
+    justify-content: center;
+}
+
+.page-name {
+    margin-left: -150px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 1119px) {
+    .logo {
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        padding-top: 0px;
+    }
+
+    #form-section .via{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: #373737;
+        padding-left: 180px;
+    }
+    
+    #form-section .alternate-login{
+        margin-left: 105px;
+    }
+    
+    .page-name {
+        margin-left: -180px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+    #gambar{
+        display: none;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    #form-section #formBasicEmail,
+    #form-section #formBasicPassword {
+        width: 450px;
+    }
+
+    #form-section .via{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: #373737;
+        padding-left: 150px;
+    }
+    
+    #form-section .alternate-login{
+        margin-left: 75px;
+    }
+    
+}

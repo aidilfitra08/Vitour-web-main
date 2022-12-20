@@ -1,0 +1,228 @@
+/* Header */
+
+.header_destination {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header_content_destination .img_wrap {
+    max-height: 100vh;
+    width: 100%;
+}
+
+.header_background {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    filter: brightness(0.4);
+    object-fit: cover;
+}
+
+.header_background::after {
+    background-color: rgba(0, 0, 0, 0.478);
+}
+
+.header_content_destination {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 80%;
+}
+
+.header_content_destination .title_destination {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50.322px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.header_content_destination .desc_destination {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffffcb;
+    text-align: left;
+    margin: 0 auto;
+}
+
+
+/* ======= */
+
+
+/* 360 Video */
+
+.wrap_video_destinasi {
+    padding: 20px;
+}
+
+.video_destinasi {
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* ======= */
+
+
+/* Gallery Destination */
+
+.gallery_destinasi {
+    padding: 20px;
+}
+
+.title_gallery {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.grid_gallery {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px; */
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.img_destination {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+
+.img_destination {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+.top_destinasi{
+    text-align: center;
+}
+
+.rekomendasi_destinasi{
+    top: 40%;
+    left: 10%;
+    margin: 0;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.desc_destination {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px!important;
+    margin-bottom: 60px!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.title_destination {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px!important;
+}
+
+.title_feedback{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 80px!important;
+}
+
+.feedback{
+    top: 40%;
+    left: 10%;
+    margin: 0;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.divider-1{
+    width: 114px;
+    height: 8px;
+    /* dark blue */
+    background: #022F46;
+    border-radius: 50px;
+}
+
+.divider-2{
+    width: 55px;
+    height: 8px;
+    /* dark blue */
+    background: #022F46;
+    border-radius: 50px;
+}
+
+.card-feedback{
+    margin-top: 40px!important;
+}
+
+.feedback-1{
+    border: 1px solid #022F46;
+    border-radius: 18px;
+    width: 540px;
+    height: 368px;
+    padding: 35px;
+}
+
+.desc_feedback {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px!important;
+    margin-bottom: 30px!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.profile_feedback{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #b3b3b3;
+    text-align: left;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1119px) {
+    .video_destinasi {
+        height: 400px;
+    }
+}
+

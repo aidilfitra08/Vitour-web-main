@@ -1,0 +1,29 @@
+.infoContainer .title h1 {
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    font-weight: 800;
+}
+
+.infoContainer .title h3 {
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.spin-loading {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 426px) {
+    .infoContainer {
+        padding: 0px 30px 0px 30px;
+    }
+}

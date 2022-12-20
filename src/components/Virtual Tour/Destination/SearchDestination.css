@@ -1,0 +1,57 @@
+.search_container {
+    padding-top: 10vh;
+}
+
+.search-bar {
+    width: fit-content;
+    margin: 30px auto;
+}
+
+#search-bar {
+    padding: 20px 15px;
+    border-radius: 9px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0px 0 5.6667px 0.22222px rgb(2 47 70 / 15%);
+    color: #001868;
+    width: 90vw;
+    text-align: center;
+}
+
+#search-bar:focus {
+    outline: #cad6ff;
+}
+
+.filter_bar {
+    width: fit-content;
+    padding-left: 5vw;
+    padding-bottom: 3vw;
+}
+
+.onSearch,
+.result {
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto 5%;
+}
+
+.result {
+    margin-bottom: 20px;
+}
+
+.result .result_search {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+
+.result .result_search mark {
+    padding: 0;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.destinationList {
+    max-height: 10vw;
+    object-fit: cover;
+}

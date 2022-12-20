@@ -1,0 +1,104 @@
+.card3-container {
+    background-color: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.card3-container:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+}
+
+.card3-container .deskripsi {
+    padding: 40px;
+}
+
+.card3-container .deskripsi h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.card3-container .deskripsi p {
+    font-size: 12px;
+    text-align: justify;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+}
+
+.card3-container img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    object-fit: cover;
+    max-height: 300px;
+}
+
+.RestoNavigation {
+    text-decoration: none;
+    margin: 0;
+}
+
+.RestoNavigation .card-btn {
+    display: block;
+    width: 30%;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #3363ff;
+    background-color: #d8e0fd;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width: 769px) {
+    .card3-container {
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+    }
+    .card3-container .deskripsi {
+        padding: 20px;
+        max-width: 50%;
+    }
+    .card3-container .deskripsi h3 {
+        font-size: 20px;
+    }
+    .card3-container .deskripsi p {
+        font-size: 10px;
+        text-align: justify;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .RestoNavigation .card-btn {
+        width: 100%;
+        padding: 0.7rem;
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .row-card3 {
+        display: block;
+    }
+    .card3-container .deskripsi {
+        max-width: 100%;
+    }
+    .card3-container .deskripsi p {
+        font-size: 10px;
+        text-align: justify;
+        white-space: normal;
+    }
+}

@@ -1,0 +1,80 @@
+.recom-cont {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.recom-cont .title h1 {
+    text-align: center;
+    font-weight: 800;
+}
+
+.recom-cont .link-store {
+    z-index: -100000;
+}
+
+.recom-cont .btn-batik,
+.recom-cont .btn-senirupa,
+.recom-cont .btn-other {
+    padding: 30px;
+    height: 300px;
+    margin: 30px auto;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.recom-cont .btn-batik:hover,
+.recom-cont .btn-senirupa:hover,
+.recom-cont .btn-other:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+}
+
+.recom-cont .btn-batik {
+    /* background-image: url("https://intranet.baznas.or.id/attachment/berita/MjU5NTE2MDE2NDA3MjM.jpg"); */
+    background: linear-gradient(0deg, rgba(20, 20, 20, 0.45), rgba(20, 20, 20, 0.45)), url("https://intranet.baznas.or.id/attachment/berita/MjU5NTE2MDE2NDA3MjM.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.recom-cont .btn-senirupa {
+    /* background-image: url("https://intranet.baznas.or.id/attachment/berita/MjU5NTE2MDE2NDA3MjM.jpg"); */
+    background: linear-gradient(0deg, rgba(20, 20, 20, 0.45), rgba(20, 20, 20, 0.45)), url("https://bandungmu.com/wp-content/uploads/2021/02/wayang-golek.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.recom-cont .btn-other {
+    /* background-image: url("https://intranet.baznas.or.id/attachment/berita/MjU5NTE2MDE2NDA3MjM.jpg"); */
+    background: linear-gradient(0deg, rgba(20, 20, 20, 0.45), rgba(20, 20, 20, 0.45)), url("https://anekatempatwisata.com/wp-content/uploads/2015/03/Oleh-oleh-Saung-Angklung-Udjo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.recom-cont .btn-batik .caption,
+.recom-cont .btn-senirupa .caption,
+.recom-cont .btn-other .caption {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.recom-cont .btn-batik .caption h2,
+.recom-cont .btn-senirupa .caption h2,
+.recom-cont .btn-other .caption h2 {
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+
+.recom-cont .btn-batik .caption p,
+.recom-cont .btn-senirupa .caption p,
+.recom-cont .btn-other .caption p {
+    text-align: center;
+    color: #FFA800;
+}

@@ -1,0 +1,226 @@
+.card {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 45vh;
+    width: 25vw;
+    border-radius: 15px;
+    overflow: hidden;
+    text-decoration: none;
+    box-shadow: 0px 0px 8.53638px rgba(0, 0, 0, 0.281);
+}
+
+.card .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 100%;
+}
+
+.card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* display: none; */
+    transition: 0.2s;
+}
+
+.card:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+
+.card__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    /* border-radius: calc(var(--curve) * 1px); */
+    background-color: #202663d8;
+    transform: translateY(109%);
+    transition: .2s ease-in-out;
+    margin: 20px;
+}
+
+.card:hover .card__overlay {
+    transform: translateY(2%);
+    background-color: #202663d8;
+    border-radius: 10px;
+}
+
+.card__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 2em 2em 0.5em 2em;
+    border-radius: 10px 10px 0 0;
+    background-color: #202663d8;
+    transform: translateY(-98.5%);
+    transition: .2s ease-in-out;
+}
+
+.card__arc {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    z-index: 1;
+}
+
+.card:hover .card__header {
+    transform: translateY(0);
+    background: none;
+}
+
+.card__thumb {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50%; */
+}
+
+.card__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3vw;
+    margin: 0 0 .3em;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.card__description {
+    padding: 0 2em 1em;
+    margin: 0;
+    color: rgb(230, 230, 230);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden; */
+    text-align: left;
+}
+
+.btn-wrap {
+    padding: 0 1.5em 1em;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.btn-wrap .btn-method {
+    padding: 15px;
+    width: max-content;
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1vw;
+    background-color: #1f2bab;
+    cursor: pointer;
+    border-style: none;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+    animation: breathing 5s ease-out infinite normal;
+}
+
+.btn-wrap .btn-method:hover {
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width :1024px) {
+    .card:hover .card__header {
+        transform: translateY(-99%);
+        padding: 1em 2em 0.5em 2em;
+        border-radius: 0;
+        border-radius: 10px 10px 0 0;
+        background-color: #242063c5;
+        ;
+    }
+    .card:hover .card__overlay {
+        transform: translateY(6%);
+        height: 48%;
+        border-radius: 00 0 10px 10px;
+    }
+    .card__title {
+        font-size: .9em;
+    }
+    .card:hover .card__description {
+        position: absolute;
+        top: -12%;
+        font-size: 0.6em;
+        padding: 1em 3.3em;
+    }
+    .btn-wrap .btn-method {
+        width: 90px;
+        font-size: 12px;
+        padding: 12px;
+        position: absolute;
+        top: 46%;
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width :426px) {
+    .banner-course-header {
+        width: 100%;
+        margin: 0;
+    }
+    .banner-title {
+        width: 100%;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+    .content {
+        display: grid;
+    }
+    .card {
+        width: 300px;
+    }
+    .card .overlay {
+        background: rgba(0, 0, 0, .6);
+    }
+    .content li {
+        padding-top: 20px;
+    }
+    .card__header {
+        transform: translateY(-99%);
+        padding: 1em 2em 0.5em 2em;
+        border-radius: 0;
+        border-radius: 10px 10px 0 0;
+    }
+    .card .card__overlay {
+        transform: translateY(6%);
+        height: 48%;
+        border-radius: 00 0 10px 10px;
+    }
+    .card__title {
+        font-size: 1em;
+    }
+    .card__description {
+        font-size: 0.6em;
+        position: absolute;
+        top: -4%;
+        padding: 1em 3.3em;
+    }
+    .btn-wrap .btn-method {
+        width: 90px;
+        font-size: 12px;
+        padding: 12px;
+        position: absolute;
+        top: 46%;
+        left: 10%;
+    }
+}

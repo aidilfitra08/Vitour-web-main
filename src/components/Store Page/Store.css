@@ -1,0 +1,255 @@
+/* Container */
+
+.store_container {
+    box-sizing: border-box;
+    padding-top: 15vh!important;
+    padding: 40px;
+}
+
+.store_content_container {
+    margin-top: 5vh;
+    display: flex;
+}
+
+.store_sidebar_menu {
+    width: 20vw;
+    box-shadow: 0px 0px 7px rgba(2, 47, 70, 0.15);
+    border-radius: 14px;
+    background-color: white;
+    padding: 30px 30px;
+    margin-right: 2vw;
+    height: fit-content;
+}
+
+
+/* ==== */
+
+
+/* Header Title */
+
+.store_header {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.store_header_title {
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.filter_search {
+    width: 100%;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.filter_search .inputFilter2 {
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0px 9.77778px 47.6667px 1.22222px rgba(46, 46, 46, 0.103);
+    color: #001868;
+}
+
+.filter_search .inputFilter2:focus {
+    outline: #cad6ff;
+}
+
+
+/* ==== */
+
+
+/* Card */
+
+.item_link {
+    text-decoration: none;
+    transition: .3s;
+}
+
+.item_link:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.store_item_list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.store_card_item_container {
+    width: fit-content;
+    max-width: 17vw;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.3s;
+    max-height: 50vh;
+}
+
+.store_card_item_image_wrap {
+    display: block;
+    margin: 10px;
+    max-width: 100%;
+}
+
+.store_card_item_image {
+    width: 15vw;
+    object-fit: cover;
+    border-radius: 10px 10px 5px 5px;
+    display: block;
+    max-height: 7vw;
+}
+
+.store_card_item_title {
+    font-size: 1.2vw;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.801);
+    text-align: left;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 5px!important;
+}
+
+.location_merch {
+    margin-left: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.location_merch svg {
+    width: 1vw;
+    height: auto;
+    fill: #003cffb2;
+}
+
+.store_card_item_desc {
+    font-size: 1vw;
+    font-weight: 500;
+    color: rgb(77, 77, 77);
+    text-align: left;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.item_price {
+    font-size: 1.2vw;
+    font-weight: bolder;
+    color: rgb(36, 36, 36);
+    text-align: left;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.store_card_item_btn_wrap {
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px 10px;
+    border: 3px solid;
+    background-color: #88a3fcaa;
+    border-radius: 10px;
+    border: none;
+}
+
+.store_card_item_btn_wrap .item_btn {
+    font-weight: bolder;
+    color: #003EFF;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+
+/* ==== */
+
+
+/* Sidebar */
+
+.category_menu {
+    margin-bottom: 30px;
+}
+
+.category_menu hr,
+.city_menu hr {
+    width: 85%;
+}
+
+.category_menu .menu_title,
+.city_menu_title {
+    font-size: 1.3vw;
+    font-weight: 700;
+    color: rgb(54, 54, 54);
+}
+
+.menu_cat span {
+    padding-left: 0.5vw;
+}
+
+.city_menu select option {
+    margin-top: 10px;
+}
+
+.city_menu select {
+    padding: 10px;
+    width: 15vw;
+    border-color: #00000025;
+}
+
+.city_menu select:active {
+    border-color: #00000025;
+}
+
+.city_menu select:focus {
+    border-color: #00000049;
+}
+
+.menu_btn_wrap {
+    width: 15vw;
+    margin-top: 20px;
+    padding: 15px 10px;
+    border: 3px solid;
+    background-color: #88a3fcaa;
+    border-radius: 10px;
+    border: none;
+}
+
+.apply_filter {
+    font-weight: bolder;
+    color: #003EFF;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    transition: .2s ease-in-out;
+}
+
+.apply_filter:hover {
+    cursor: pointer;
+    color: #002caf;
+}
+
+
+/* ====== */

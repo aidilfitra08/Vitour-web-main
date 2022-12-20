@@ -1,0 +1,2 @@
+npm add styled-components
+npm add react-router-dom react-icons

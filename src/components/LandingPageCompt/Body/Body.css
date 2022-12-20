@@ -1,0 +1,467 @@
+.container-body {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 10%;
+    margin: 0 auto;
+}
+
+.banner-fitur {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 30% 30% 30%;
+    /* grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); */
+    align-items: center;
+    text-align: justify;
+    background: linear-gradient(180deg, #0133D4 0%, #3162FF 100%);
+    padding: 30px;
+}
+
+.banner-fitur .banner {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.banner-fitur .banner .banner-img-wrap {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-fitur .banner .banner-img-wrap img {
+    width: 100px;
+    height: auto;
+}
+
+.banner-fitur .banner p {
+    color: white;
+    text-align: center;
+    font-weight: 800;
+}
+
+.wrap_loading {
+    margin-top: 30px;
+}
+
+.search-wrapper {
+    width: 50%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 9.77778px 47.6667px 1.22222px rgba(2, 47, 70, 0.15);
+}
+
+.search-wrapper .search_box {
+    position: relative;
+    width: auto;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.search-wrapper .search_box .input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0px 9.77778px 47.6667px 1.22222px rgba(2, 47, 70, 0.15);
+}
+
+.search-wrapper .search_box .input:focus {
+    outline: #809dff;
+}
+
+.search-wrapper .search_box .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 100%;
+    background: #003bfd;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-wrapper .search_box .btn:hover {
+    background: #0133da;
+}
+
+.search-wrapper .search_box .btn p {
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding-top: 11px
+}
+
+.title,
+.aboutus {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.title h2,
+.aboutus h2,
+.testimoni h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.aboutus .aboutus-content {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 50% 50%;
+    /* grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); */
+    align-items: start;
+    text-align: justify;
+}
+
+.aboutus-desc p {
+    text-align: justify;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.aboutus .img-wrap {
+    margin: 0 auto;
+    display: block;
+}
+
+.aboutus .img-wrap img {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto auto auto auto;
+    /* grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); */
+    align-items: start;
+}
+
+
+/* Banner Merch */
+
+.banner-merch {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 45% 55%;
+    width: 100%;
+    align-items: start;
+    margin-top: 100px;
+}
+
+.banner-merch-img-wrapper {
+    margin-left: 20px;
+}
+
+.banner-merch-img-wrapper .img-banner-merch {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.banner-merch-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    font-size: 35px;
+    color: #464646;
+}
+
+.banner-merch-desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.596);
+    width: 91%;
+}
+
+.baner-merch-button {
+    background: #FF9900;
+    box-shadow: 0px 23px 23px -8px rgba(255, 153, 0, 0.59);
+    border-radius: 9.31188px;
+    padding: 13px 40px;
+    border: none;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    transition: .2s;
+    animation: breathing 5s ease-out infinite normal;
+}
+
+.baner-merch-button:hover,
+.baner-merch-button:active {
+    transform: scale(1.02);
+}
+
+@keyframes breathing {
+    0% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    25% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    60% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    100% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+
+/* Category */
+
+.categories {
+    margin: 50px auto;
+    height: fit-content;
+}
+
+.category-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+    /* identical to box height */
+    text-align: center;
+    color: #313131;
+    font-size: 25px;
+}
+
+.category-desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.562);
+}
+
+.category-container {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.category-item {
+    display: inline-block;
+    margin: 5px 20px;
+    padding: 20px;
+    border-radius: 7.9103px;
+    transition: .2s ease-in;
+    box-shadow: 0px 12px 19px -20px #e0e0e0;
+}
+
+.category-item:hover {
+    transform: scale(1.06);
+    box-shadow: 0px 31px 35px -13px #e0e0e0;
+}
+
+.category-item svg {
+    height: 70px;
+    width: 70px;
+    margin: 0 10px;
+}
+
+.link:nth-child(1) .category-item {
+    background: rgba(0, 56, 255, 0.14);
+}
+
+.link:nth-child(2) .category-item {
+    background: #C5FFC4;
+}
+
+.link:nth-child(3) .category-item {
+    background: #FFE2C8;
+}
+
+.link:nth-child(4) .category-item {
+    background: #d6fdf2;
+}
+
+.link:nth-child(5) .category-item {
+    background: #fdd6f3;
+}
+
+.nature,
+.cat1 {
+    fill: #0039FF;
+    color: #0039FF;
+}
+
+.mountain,
+.cat2 {
+    fill: #06BC00;
+    color: #06BC00;
+}
+
+.history,
+.cat3 {
+    fill: #FF7900;
+    color: #FF7900;
+}
+
+.iconic,
+.cat4 {
+    fill: #00C98E;
+    color: #00C98E;
+}
+
+.mall,
+.cat5 {
+    fill: #ff20c7;
+    color: #ff20c7;
+}
+
+.category-item-title {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+
+/* Testimoni */
+
+.testimoni {
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 25px;
+}
+
+.testimoni h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-align: center;
+    color: #313131;
+    font-size: 25px;
+}
+
+.testimoni .carousel {
+    margin: 20px auto;
+}
+
+.testimoni .carousel-inner {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-fitur .banner {
+        width: 100%;
+    }
+    .banner-fitur .banner .banner-img-wrap img {
+        width: 50px;
+        height: auto;
+    }
+    .banner-fitur .banner p {
+        font-size: 12px;
+    }
+    .search-wrapper {
+        width: 100%;
+    }
+    .grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: auto auto;
+        /* padding: 0 30px; */
+    }
+    .aboutus {
+        margin: 20px auto
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .container-body {
+        margin: 0 auto;
+    }
+    .banner-merch {
+        display: block;
+    }
+    .banner-merch-img-wrapper {
+        margin-left: 0;
+    }
+    .banner-merch-img-wrapper .img-banner-merch {
+        border-radius: 7px;
+    }
+    .banner-merch-title {
+        margin-top: 20px;
+        font-size: 27px;
+        line-height: 38px;
+    }
+    .banner-merch-desc {
+        font-size: 13px;
+        width: 100%;
+        line-height: 23px;
+    }
+    .category-desc {
+        width: 100%;
+        font-size: 13px;
+    }
+    .category-item {
+        margin: 10px 20px;
+    }
+    .grid {
+        display: block;
+    }
+    .aboutus .img-wrap {
+        display: none;
+    }
+    .aboutus-desc p {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .aboutus .aboutus-content {
+        display: block;
+    }
+    .banner-fitur {
+        display: none;
+    }
+    .testimoni {
+        margin-top: 10px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .category-item {
+        margin: 8px 8px;
+    }
+    .category-container {
+        margin-top: 20px;
+    }
+}

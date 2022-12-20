@@ -1,0 +1,164 @@
+.container_detail_item {
+    margin-top: 5rem;
+}
+
+.h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.02em;
+}
+
+.h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+    color: #181818;
+}
+
+.bodybold {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+}
+
+.subtitle1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+}
+
+.subtitle2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+
+.bodytext {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+}
+
+.smalltext {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+}
+
+.pretext {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+}
+
+.photo {
+    text-align: center;
+}
+
+.dot-1 {
+    background: #ffff;
+    border: 1px solid #ACACAC;
+    border-radius: 180px;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.dot-1:hover {
+    border: 2px solid #ACACAC;
+}
+
+.dot-2 {
+    background: #0133D4;
+    border-radius: 180px;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.dot-2:hover {
+    background: rgba(1, 51, 212, 0.5);
+}
+
+.dot-3 {
+    background: #000;
+    border-radius: 180px;
+    width: 40px;
+    height: 40px;
+}
+
+.dot-3:hover {
+    background: rgba(20, 20, 20, 0.5);
+}
+
+.size {
+    text-decoration: none;
+    color: #B3B3B3;
+}
+
+.size:hover {
+    color: black;
+}
+
+.sizeguide {
+    text-decoration: none;
+}
+
+.btn-add-to-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 64px;
+    gap: 6px;
+    width: 540px;
+    height: 50px;
+    background: #0133D4;
+    border-radius: 8px;
+    color: #ffff;
+}
+
+.btn-add-to-cart:hover {
+    color: #ffff;
+}
+
+.add-to-cart {
+    text-decoration: none;
+}
+
+.line {
+    border: 1px solid #000000;
+}

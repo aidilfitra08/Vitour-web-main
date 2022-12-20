@@ -1,0 +1,67 @@
+body .profile {
+    padding-top: 15vh!important;
+    /* background-image: url("bg-profile.png"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    padding-bottom: 3vw;
+  }
+
+.left-col {
+    width: 30%;
+}
+
+.right-col {
+    margin: 0;
+}
+
+
+.rowMid {
+    display: flex;
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.profile-view {
+    margin-top: 1vw;
+    padding: 2vw 2vw 1vw 2vw;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.photo-profile {
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.name-view {
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
+
+h5 {
+    font-weight:600;
+}
+
+.edit-button {
+    float: right;
+}
+
+.form-edit label {
+    color: #699BF7;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1399px) {
+    .left-col {
+        width: 100%;
+    }
+    
+    .right-col {
+        width: 100%;
+    }
+}

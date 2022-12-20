@@ -1,0 +1,117 @@
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        background-color: #0133D4;
+        padding: 40px;
+    }
+    
+    ul {
+        margin-bottom: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    .flex-row {
+        margin: 0 auto;
+    }
+    
+    .flex-row li {
+        padding: 30px;
+        margin: 0 20px;
+    }
+    
+    .iconIG,
+    .iconLI,
+    .iconFB,
+    .iconYT,
+    .iconTT {
+        margin: 20px 20px;
+        cursor: pointer;
+        color: white;
+        width: 20px;
+        height: auto;
+    }
+    
+    .iconIG:hover,
+    .iconLI:hover,
+    .iconFB:hover,
+    .iconYT:hover,
+    .iconTT:hover {
+        transform: translateY(-1);
+        width: 22px;
+        height: auto;
+    }
+    
+    li a {
+        font-size: 18px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.678);
+        text-decoration: none;
+    }
+    
+    li a:hover,
+    li a:active {
+        color: white;
+    }
+    
+    i {
+        cursor: pointer;
+        font-size: 30px;
+        margin: 0 20px;
+    }
+    
+    .copyright {
+        text-align: center;
+        margin: 30px auto;
+        color: white;
+    }
+    
+    @media screen and (max-width: 768px) {
+        li a {
+            font-size: 16px;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.678);
+            text-decoration: none;
+        }
+        .iconIG,
+        .iconLI,
+        .iconFB,
+        .iconYT,
+        .iconTT {
+            justify-content: center;
+            margin: 20px 15px 20px 15px;
+            cursor: pointer;
+            color: white;
+            width: 15px;
+            height: auto;
+        }
+        .flex-row li {
+            padding: 0 10px;
+            margin-bottom: 16px;
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        li a {
+            font-size: 10px;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.678);
+            text-decoration: none;
+        }
+        .flex-row li {
+            padding: 0;
+            margin-bottom: 16px;
+        }
+        .flex-row {
+            margin-bottom: 10px;
+            padding: 0;
+        }
+        .copyright {
+            text-align: center;
+            margin: 30px auto;
+            color: white;
+            font-size: 50%;
+        }
+    }

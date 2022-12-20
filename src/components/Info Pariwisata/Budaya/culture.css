@@ -1,0 +1,195 @@
+.h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.02em;
+}
+
+.h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+}
+
+.bodybold {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+}
+
+.subtitle1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+}
+
+.subtitle2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+
+.bodytext {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+}
+
+.smalltext {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+}
+
+.pretext {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+#section2-culture {
+    margin-top: 5vh;
+}
+
+#section2-culture .container-culture2 {
+    padding-left: 165px;
+    padding-right: 165px;
+    display: flex;
+    width: 1110px;
+    padding-bottom: 100px;
+}
+
+#section2-culture .description-culture-1 {
+    width: 445px;
+    padding-right: 30px;
+}
+
+#section2-culture .title-culture2 {
+    color: #022F46;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#section2-culture .description-culture-2 {
+    width: 445px;
+    padding-left: 30px;
+}
+
+#section3-culture {
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+#section3-culture .background-culture-3 {
+    background: url('https://telegra.ph/file/d24648a5b2ebad6eca3f4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1110px;
+}
+
+#section3-culture .description-culture-3 {
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 350px;
+    padding-bottom: 84px;
+    color: #ffffff;
+}
+
+#section3-culture .subtitle-culture-3 {
+    display: flex;
+}
+
+#section3-culture .line {
+    width: 301.5px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin-top: 11px;
+}
+
+#section3-culture .indonesia-culture-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#section3-culture .title-culture-3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#section3-culture .body-culture-3 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#section3-culture .explore-more {
+    text-decoration: none;
+}
+
+#section3-culture .btn-explore {
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    width: 144px;
+    height: 43px;
+    border: 1px solid #FFFFFF;
+    border-radius: 180px;
+    background-color: transparent;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+#section3-culture .explore {
+    padding-left: 293px;
+}
+
+.btn-back {
+    width: 205px;
+    height: 59px;
+    left: 617px;
+    margin-top: 51px;
+    border: 1px solid #022F46;
+    border-radius: 18px;
+    background-color: transparent;
+    color: #022F46;
+    margin-left: 617px;
+    margin-right: 617px;
+}

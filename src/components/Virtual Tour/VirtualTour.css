@@ -1,0 +1,31 @@
+.wrap,
+.containerVT {
+    padding-top: 30px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px
+}
+
+.city p {
+    display: none;
+}
+
+.containerVT .title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.322px;
+    color: rgb(32, 32, 32);
+}
+
+.city_wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 426px) {
+    .city-wrap {
+        display: block;
+    }
+}

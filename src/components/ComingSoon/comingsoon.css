@@ -1,0 +1,32 @@
+.cs-cont .title {
+    width: 50%;
+    margin: 200px auto;
+    justify-content: center;
+    display: block;
+    text-align: center;
+}
+
+.cs-cont .title h1 {
+    font-weight: 800;
+    font-size: 100px;
+    opacity: 40%;
+    text-align: center;
+}
+
+.PageNotFound {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.PageNotFound h1 {
+    font-weight: 800;
+    font-size: 100px;
+    opacity: 40%;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .cs-cont .title h1 {
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,130 @@
+.card5-container {
+    background-color: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+}
+
+.card5-container .deskripsi {
+    padding: 40px;
+}
+
+.card5-container .deskripsi h3 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.card5-container .deskripsi .sub-title {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    opacity: 50%;
+}
+
+.card5-container .deskripsi .desc {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card5-container .img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card5-container .img-wrapper img {
+    height: 100%;
+    min-height: 324px;
+    max-height: 324px;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.RestoNavigation {
+    text-decoration: none;
+    margin: 0;
+}
+
+.RestoNavigation .card-btn {
+    display: block;
+    width: 30%;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #3363ff;
+    background-color: #d8e0fd;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width: 769px) {
+    .card5-container {
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+    }
+    .card5-container .deskripsi {
+        padding: 20px;
+        max-width: 50%;
+    }
+    .card5-container .deskripsi h3 {
+        font-size: 20px;
+    }
+    .card5-container .deskripsi .desc,
+    .card5-container .deskripsi .sub-title {
+        font-size: 15px;
+        text-align: justify;
+        white-space: normal;
+    }
+    .card5-container .img-wrapper img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .row-card3 {
+        display: block;
+    }
+    .card5-container .deskripsi {
+        max-width: 100%;
+    }
+    .card5-container .deskripsi .desc,
+    .card5-container .deskripsi .sub-title {
+        font-size: 10px;
+    }
+    .card5-container .img-wrapper img {
+        width: 50%;
+        height: auto;
+    }
+    .card5-container .deskripsi .sub-title {
+        font-size: 12px;
+        opacity: 50%;
+        text-align: center;
+    }
+    .card5-container .deskripsi .desc {
+        font-size: 10px;
+        text-align: center;
+    }
+    .card5-container .deskripsi h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .card5-container .img-wrapper img {
+        width: 100%;
+    }
+}
